@@ -1,3 +1,12 @@
+## v1.8.8
+* 更新了 cross-request [教程](https://juejin.im/post/5e3bbd986fb9a07ce152b53d)，发布了最新的 3.1 版本 
+
+## v1.8.7
+* 因 chrome 官方下架了 yapi 扩展，整理了本地安装教程
+
+## v1.8.6
+* 优化 swagger 文档导入分类策略，优先使用根路径的 tags 做分类，避免出现特别多分类的问题
+
 ## v1.8.5
 * 改善 swagger 自动导入，不再支持秒级别的 cron 表达式,默认使用 10分钟更新一次的频率
 * 修复输入空的 swagger地址 ，会发起请求的 bug
